@@ -20,13 +20,10 @@
   "devDependencies": {
     "enb-make": "^0.0.6",
     "bem-tools-create": "^2.1.0",
-    "cross-env": "^5.2.0",
     "node-sass": "^4.10.0",
     "bem-core": "^4.3.1",
     "bem": "^2.0.0",
-    "decache": "^4.5.1",
-    "bem-fontawesome5": "^0.0.9",
-    "ssh-tunneler": "^1.0.0"
+    "bem-fontawesome5": "^0.0.9"
   },
   "scripts": {
     "drop-cache": "rm -rf .enb/tmp",
