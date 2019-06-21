@@ -1,0 +1,44 @@
+{
+  "author": "",
+  "name": "bem-project-stub",
+  "version": "2.0.0",
+  "browserslist": [
+    "ie >= 10",
+    "opera 12.1",
+    "> 2%",
+    "last 1 versions",
+    "ios 7",
+    "safari 8"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bem/project-stub.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "enb-make": "^0.0.6",
+    "bem-tools-create": "^2.1.0",
+    "cross-env": "^5.2.0",
+    "node-sass": "^4.10.0",
+    "bem-core": "^4.3.1",
+    "bem": "^2.0.0",
+    "decache": "^4.5.1",
+    "bem-fontawesome5": "^0.0.9",
+    "ssh-tunneler": "^1.0.0"
+  },
+  "scripts": {
+    "drop-cache": "rm -rf .enb/tmp",
+    "test": "enb make && enb make clean",
+    "hermione-update": "hermione --config .hermione.conf.js --update-refs",
+    "hermione-test": "hermione --config .hermione.conf.js",
+    "hermione-gui": "hermione gui --config .hermione.conf.js",
+    "start": "enb server",
+    "build": "enb make",
+    "assembly-mergedBundle": "enb make",
+    "assembly-example": "enb make assembly-example",
+    "assembly-tests": "enb make assembly-tests"
+  },
+  "private": true
+}

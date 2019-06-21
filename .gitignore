@@ -1,0 +1,18 @@
+node_modules/
+.DS_Store
+.idea/
+*.iml
+.project
+.svn
+npm-debug.log
+
+# bem
+.bem/cache/
+.enb/tmp/
+*bundles*/*/*.*
+!*bundles*/*/*.bemjson.js
+!*bundles*/.bem/*
+!*bundles/common/*.js
+/package-lock.json
+/html-report/
+/images/

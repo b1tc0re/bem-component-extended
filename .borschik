@@ -1,0 +1,9 @@
+{
+    "paths" : {
+        "static/": "/static/"
+    },
+    "freeze_paths" : {
+        "**/i/*": "./static"
+    },
+    "freeze_nesting_level": 1
+}

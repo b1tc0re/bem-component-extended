@@ -1,0 +1,1 @@
+../../../../blocks/common.blocks/button/button.tests/hermione.bemjson.js
