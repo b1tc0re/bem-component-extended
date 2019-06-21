@@ -9,7 +9,7 @@
 | Поле | Тип | Описание |
 | ---- | --- | -------- |
 | <a href="#brazzersImages">images</a> | <code>Array</code> | Список картинок. |
-| <a href='#brazzersTheme'>theme</a> | <code>'islands'</code> | <code>BEMJSON</code> | Стилевое оформление. |
+| <a href='#brazzersTheme'>theme</a> | <code>'sky'</code> | <code>BEMJSON</code> | Стилевое оформление. |
 ## Описание блока
 
 Блок `brazzers` предоставляет возможность быстро создавать галереи для товара.
