@@ -1,0 +1,17 @@
+.link_theme_default {
+    color: #2196f3;
+    cursor: pointer;
+    transition: color 0.15s ease-out;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+
+    &:hover, &.link_hovered {
+        color: #0a6ebd;
+        text-decoration: none;
+    }
+
+    &.link_disabled {
+        color: #ddd;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+}
