@@ -1,7 +1,7 @@
 {
-  "author": "",
-  "name": "bem-project-stub",
-  "version": "2.0.0",
+  "author": "b1tc0re",
+  "name": "bem-component-extended",
+  "version": "1.0.0",
   "browserslist": [
     "ie >= 10",
     "opera 12.1",
@@ -18,12 +18,14 @@
     "node": ">=8"
   },
   "devDependencies": {
-    "enb-make": "^0.0.6",
+    "enb-make": "^0.1.1",
     "bem-tools-create": "^2.1.0",
     "node-sass": "^4.10.0",
     "bem-core": "^4.3.1",
     "bem": "^2.0.0",
-    "bem-fontawesome5": "^0.0.9"
+    "bem-fontawesome5": "^0.0.9",
+    "recursive-iterator": "^3.3.0",
+    "bem-icomoon": "^0.0.1"
   },
   "scripts": {
     "drop-cache": "rm -rf .enb/tmp",
@@ -31,11 +33,10 @@
     "hermione-update": "hermione --config .hermione.conf.js --update-refs",
     "hermione-test": "hermione --config .hermione.conf.js",
     "hermione-gui": "hermione gui --config .hermione.conf.js",
-    "start": "enb server",
-    "build": "enb make",
+    "start": "enb server --port 3131",
+    "build": "npm run assembly-example && npm run assembly-tests && npm run assembly-mergedBundle && enb make",
     "assembly-mergedBundle": "enb make",
     "assembly-example": "enb make assembly-example",
     "assembly-tests": "enb make assembly-tests"
-  },
-  "private": true
+  }
 }
