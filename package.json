@@ -18,14 +18,13 @@
     "node": ">=8"
   },
   "devDependencies": {
-    "enb-make": "^0.1.1",
-    "bem-tools-create": "^2.1.0",
-    "node-sass": "^4.10.0",
-    "bem-core": "^4.3.1",
     "bem": "^2.0.0",
+    "bem-core": "^4.3.1",
     "bem-fontawesome5": "^0.0.9",
-    "recursive-iterator": "^3.3.0",
-    "bem-icomoon": "^0.0.1"
+    "bem-tools-create": "^2.3.0",
+    "enb-make": "^0.1.2",
+    "node-sass": "^4.13.0",
+    "recursive-iterator": "^3.3.0"
   },
   "scripts": {
     "drop-cache": "rm -rf .enb/tmp",
